@@ -1,15 +1,102 @@
+# Android Studio
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.iws
+*.gradle
 local.properties
+*.keystore
+
+# Gradle build directories and files
+.gradle/
+build/
+out/
+*.gradle
+*.gradle.kts
+
+# Android-specific
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.hprof
+
+# Java/Kotlin build artifacts
+*.class
+*.log
+
+# IDE-specific
+*.idea/
+*.iml
+*.iws
+*.swp
+*.swo
+
+# Project-specific
+*.sublime-workspace
+*.sublime-project
+*.nib
+
+# Log files
+*.log
+*.tmp
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# npm packages (for projects with Node.js)
+node_modules/
+
+# JetBrains IDE
+*.sublime-workspace
+*.sublime-project
+
+# Environment variable files
+*.env
+*.local
+
+# Generated files
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+*.idea/
+*.iml
+*.iws
+
+# Proguard
+proguard-rules.pro
+
+# Firebase
+google-services.json
+google-services.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Gradle Wrapper
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Kotlin
+*.kotlin_metadata
+*.kotlin_module
+
+# Testing
+*.test
+
+# Local configuration files
+*.local
+*.env
