@@ -1,7 +1,6 @@
 package com.app.flickrapp.viewmodel
 
 import android.util.Log
-import android.widget.Toast
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -10,9 +9,9 @@ import com.app.flickrapp.repository.FlickrRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
+
 /**
  * [FlickrViewModel] handles the UI-related data for the Flickr photo search feature.
  * It manages the state for fetching photos from the [FlickrRepository], including loading, error,

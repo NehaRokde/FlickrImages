@@ -2,15 +2,11 @@ package com.app.flickrapp.repository
 
 import com.app.flickrapp.api.FlickrApi
 import com.app.flickrapp.createSampleFlickrResponse
-import com.app.flickrapp.data.model.FlickrItem
-import com.app.flickrapp.data.model.FlickrResponse
-import com.app.flickrapp.data.model.Media
 import kotlinx.coroutines.runBlocking
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.ResponseBody.Companion.toResponseBody
 import org.junit.Assert
 import org.junit.Assert.assertEquals
-import org.junit.Assert.assertThrows
 import org.junit.Before
 import org.junit.Test
 import org.mockito.Mock

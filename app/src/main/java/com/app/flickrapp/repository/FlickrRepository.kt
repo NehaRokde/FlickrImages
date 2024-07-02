@@ -2,10 +2,9 @@ package com.app.flickrapp.repository
 
 import com.app.flickrapp.api.FlickrApi
 import com.app.flickrapp.data.model.FlickrResponse
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 import javax.inject.Inject
 import javax.inject.Singleton
+
 /**
  * [FlickrRepository] handles data operations related to Flickr public photos.
  * It provides methods to interact with the [FlickrApi] to fetch photos based on tags.

@@ -12,7 +12,6 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.material.OutlinedTextField
 import androidx.compose.material.Text
-import androidx.compose.material.TextField
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -27,6 +26,7 @@ import androidx.navigation.NavController
 import coil.compose.rememberImagePainter
 import com.app.flickrapp.viewmodel.FlickrViewModel
 import com.google.gson.Gson
+
 /**
  * [SearchScreen] displays a search interface for finding photos using the [FlickrViewModel].
  * It provides a text field for entering search terms, displays a grid of photo results,

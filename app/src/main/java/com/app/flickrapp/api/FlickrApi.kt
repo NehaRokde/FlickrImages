@@ -2,8 +2,6 @@ package com.app.flickrapp.api
 
 import com.app.flickrapp.data.model.FlickrResponse
 import retrofit2.Response
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Query
 
